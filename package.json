@@ -1,16 +1,20 @@
 {
-  "name": "nodejs-sandbox",
+  "name": "My-blog",
   "version": "1.0.0",
-  "description": "Node.js example server starter project",
+  "description": "blog",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
   },
   "keywords": [],
-  "author": "Ives van Hoorne",
+  "author": "Strizhov Vladislav",
   "devDependencies": {
     "@types/node": "^20.5.9",
     "nodemon": "3.0.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
   }
 }
